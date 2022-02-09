@@ -1,0 +1,54 @@
+﻿<Window x:Class="Tests.Autorize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tests"
+        mc:Ignorable="d"
+         Title="Авторизация" Height="450" Width="800">
+    <Grid Background="#7D9BE9" >
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock
+            Foreground="#002050"
+            FontSize="24" FontWeight="Bold">Авторизация</TextBlock>
+            <TextBlock
+            Foreground="Black"
+            FontSize="18"
+            Margin="5">Логин</TextBlock>
+            <TextBox x:Name="TextLogin"
+             Height="28"
+                Width="400"
+                Background="White"
+                FontSize="14"
+                Foreground="Black"></TextBox>
+            <TextBlock 
+            Foreground="Black"
+            FontSize="18"
+            Margin="5">Пароль</TextBlock>
+            <TextBox x:Name="TextPass" 
+                Height="28"
+                Width="400"
+                Background="White"
+                FontSize="14"
+                Margin="0 0 0 20"
+                Foreground="Black"></TextBox>
+            <Button
+                Height="40"
+                Width="150"
+             
+                FontWeight="Medium"
+                Background="#38B0B0"
+                Click="Enter_Click">Войти</Button>
+        </StackPanel>
+        <Button
+            Width="190"
+            Height="30"
+            Background="Transparent"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Center"
+            Margin="5"
+            Foreground="Black"
+            FontSize="16"
+            Click="Reg_Click">Зарегистрироваться</Button>
+    </Grid>
+</Window>

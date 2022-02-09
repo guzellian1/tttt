@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="06579cccfa664118b4b830e4b2139f01" Name="Diagram1">
+        <EntityTypeShape EntityType="testingModel.Answers" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.QuestAnsw" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.Questions" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.Results" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.Test" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="testingModel.Users" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="testingModel.FK_QuestAnsw_Answers" ManuallyRouted="false" />
+        <AssociationConnector Association="testingModel.FK_QuestAnsw_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="testingModel.FK_Questions_Test" ManuallyRouted="false" />
+        <AssociationConnector Association="testingModel.FK_Results_Tests" ManuallyRouted="false" />
+        <AssociationConnector Association="testingModel.FK_Results_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

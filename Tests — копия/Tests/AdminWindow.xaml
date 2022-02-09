@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tests.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tests"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid>
+        <Frame x:Name="frame" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0"/>
+        <Button Content="Перейти к редактированию вопросов" Background="#38B0B0" Click="EnterToQuestion" HorizontalAlignment="Left" VerticalAlignment="Top" Width="277" Height="22" Margin="225,0,0,0"/>
+        <Button Content="Перейти к редактированию тестов" Background="#38B0B0" Click="EnterToQuestion" HorizontalAlignment="Left" VerticalAlignment="Top" Width="277" Height="22" Margin="507,0,0,0"/>
+
+    </Grid>
+</Window>
